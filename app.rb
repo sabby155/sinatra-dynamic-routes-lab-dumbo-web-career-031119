@@ -12,5 +12,7 @@ class App < Sinatra::Base
     @number = params[:number]
     "#{@number ** 2}"
   end   
+  
+  get 
 
 end
