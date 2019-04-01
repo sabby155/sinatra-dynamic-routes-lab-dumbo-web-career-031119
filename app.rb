@@ -22,6 +22,8 @@ class App < Sinatra::Base
     end
     string
  end
+ 
+ get '/say/'
    
  
 
