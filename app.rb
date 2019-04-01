@@ -17,8 +17,10 @@ class App < Sinatra::Base
    @number = params[:number].to_i
    @phrase = params[:phrase]
    
-    @number.times  do |num| "#{num * @phrase}"
-  end
+    repeat = @number.times  do |num| 
+      "#{num * @phrase}"
+    end
+    repeat 
  end
    
  
