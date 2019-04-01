@@ -34,6 +34,9 @@ class App < Sinatra::Base
    
    if @operation == 'add'
      "#{@number1 + @number2}"
+   end
+   if @operation == 'multiply'
+     "#{@number1 * @number2}"
    end 
    
  end  
